@@ -1,0 +1,19 @@
+# --- Fichiers de sauvegarde et de travail temporaires KiCad ---
+*-bak
+*.bak
+*.kicad_prl
+*-save.kicad_sch
+*-save.kicad_pcb
+*.bck
+*.dcm
+
+# --- Verrouillage et sauvegardes automatiques de sécurité ---
+*.lck
+*-backups/
+
+# --- Caches KiCad ---
+fp-info-cache
+
+# --- Dossiers d'exclusion personnalisés ---
+# Exclure le dossier de génération des Gerbers et fichiers de fabrication
+out/

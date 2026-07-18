@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MolexAlim") (type "KiCad") (uri "${KIPRJMOD}/Lib/molex_alim/KiCADv6/2025-04-01_19-22-31.kicad_sym") (options "") (descr ""))
+	(lib (name "MolexConnector") (type "KiCad") (uri "${KIPRJMOD}/Lib/molex_connector/KiCADv6/2025-04-01_19-24-55.kicad_sym") (options "") (descr ""))
+	(lib (name "Molex4325") (type "KiCad") (uri "${KIPRJMOD}/Lib/molex_alim/2026-06-14_14-53-04.kicad_sym") (options "") (descr ""))
+)
