@@ -1,0 +1,299 @@
+(footprint "SOIC127P600X170-9N_pasta"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DDA (R-PDSO-G8)-ren1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC4"
+		(at 3.85 3.75 180)
+		(layer "F.SilkS")
+		(uuid "20cb1d3f-baad-451c-8f58-61abe5dd0f2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPS7B8601QDDARQ1"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "45ebf9ea-b752-4fcc-9f28-e9c4dddb528f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b86-q1.pdf?ts=1615134464419&ref_url=https%253A%252F%252Fwww.mouser.es%252F"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d367a75-f319-46b8-868f-fd5452792e09")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "LDO Voltage Regulators Automotive 500-mA, 40-V, ultra-low-IQ, low-dropout (LDO) linear regulator with power good"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbeed056-37f9-4125-a4d1-192950676a64")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31babfd6-2d41-42fd-9b6c-2061721a77dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS7B8601QDDARQ1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ba9712e-3c95-4606-9cd3-e521eabe5c9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7B8601QDDARQ1?qs=KUoIvG%2F9IlaUOa4E1YxyLQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d3398d-5ca2-4058-8e5a-6b8bdd96cfb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d341968-f923-4cef-9da3-6739558d5b7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS7B8601QDDARQ1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d3be862-0b8d-4236-a888-077ca01cb872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power/")
+	(sheetfile "buck.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.475 -2.58)
+		(end -1.95 -2.58)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d84acfc-125e-4e9e-aa88-cab50bc91a59")
+	)
+	(fp_line
+		(start -3.725 -2.75)
+		(end 3.725 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0303514a-de15-41b7-8ffe-88f2b4e1a169")
+	)
+	(fp_line
+		(start -3.725 2.75)
+		(end -3.725 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fb6dcec-0bee-4e2b-8107-cdc60fdafa94")
+	)
+	(fp_line
+		(start 3.725 -2.75)
+		(end 3.725 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e88b39f1-da66-4be6-93d6-15e88aec0fe0")
+	)
+	(fp_line
+		(start 3.725 2.75)
+		(end -3.725 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88a6dc37-f08d-41be-bbeb-bb4d97453aa5")
+	)
+	(fp_line
+		(start -1.95 -2.45)
+		(end 1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dcf1ce5-97cd-4820-9a99-0306a21409d5")
+	)
+	(fp_line
+		(start -1.95 -1.18)
+		(end -0.68 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea7b6db4-6837-4d0d-8d50-1db0c92d6770")
+	)
+	(fp_line
+		(start -1.95 2.45)
+		(end -1.95 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77397536-eb97-48ff-be8b-2cd13085c3eb")
+	)
+	(fp_line
+		(start 1.95 -2.45)
+		(end 1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "471ac39d-da9a-482f-95a2-3e8543a03f61")
+	)
+	(fp_line
+		(start 1.95 2.45)
+		(end -1.95 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4716f02-7a41-4e1b-8416-c4b054ea90eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "2f4bad20-9e39-4ad7-9bdd-c4bb5fd5f195")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.712 -1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0cdce78-7cef-460e-be0b-41eb3c83ddad")
+	)
+	(pad "2" smd rect
+		(at -2.712 -0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "971193a9-f34e-4448-912f-44d00b2bfaf0")
+	)
+	(pad "3" smd rect
+		(at -2.712 0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d45e4f91-48dd-4bca-a154-3e2625955419")
+	)
+	(pad "4" smd rect
+		(at -2.712 1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a73be5bb-e31c-42d3-8a13-8d1e96658a79")
+	)
+	(pad "5" smd rect
+		(at 2.712 1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76ae8c8e-8d58-47e3-8d01-f09cb7bef1ff")
+	)
+	(pad "6" smd rect
+		(at 2.712 0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c2e1131-173c-42c9-9c86-d67cf1e97781")
+	)
+	(pad "7" smd rect
+		(at 2.712 -0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f9beced9-1cb9-416b-933f-37af88559223")
+	)
+	(pad "8" smd rect
+		(at 2.712 -1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ac2983b0-8e3e-4714-b6ca-cbd7c676f068")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.4 3.1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2961dca5-e6b7-46b5-bdbe-374959e865af")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\Pierre-Yves\\Documents\\KiCad\\Libs\\SamacSys_Parts.3dshapes\\TPS7B8601QDDARQ1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

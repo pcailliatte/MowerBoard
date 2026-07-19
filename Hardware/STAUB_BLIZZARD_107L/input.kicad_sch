@@ -1669,12 +1669,6 @@
 		(uuid "5c668c25-caa0-4a3d-89cb-6ff731b0570b")
 	)
 	(junction
-		(at 95.25 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80fc5af7-4018-4dbe-aa66-dc9791487c81")
-	)
-	(junction
 		(at 140.97 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1711,12 +1705,6 @@
 		(uuid "b2cd880b-e085-4020-b352-54ae3677f5c1")
 	)
 	(junction
-		(at 95.25 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b90cd79f-e0c2-454f-aa4a-bb0452fff949")
-	)
-	(junction
 		(at 87.63 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1735,22 +1723,10 @@
 		(uuid "f0b2b377-6785-45fa-8c80-e42d84ad391f")
 	)
 	(junction
-		(at 99.06 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2b6df45-959b-4c44-bd55-c1b0fd6c9232")
-	)
-	(junction
 		(at 207.01 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f792ca41-5712-43ed-a9c1-eecf7979687b")
-	)
-	(junction
-		(at 91.44 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8103b2b-2067-41ad-91f8-3ba2b826da83")
 	)
 	(junction
 		(at 83.82 127)
@@ -1769,6 +1745,10 @@
 		(uuid "48e9fdf1-e0e6-4cf0-b4fe-93b6ad7e313d")
 	)
 	(no_connect
+		(at 133.35 100.33)
+		(uuid "4e796cf6-31f6-476e-b99e-4d640b6fed08")
+	)
+	(no_connect
 		(at 143.51 120.65)
 		(uuid "757fb7da-6375-4621-9c5c-d8d60848db41")
 	)
@@ -1783,6 +1763,10 @@
 	(no_connect
 		(at 151.13 120.65)
 		(uuid "93ea7a5d-27fc-4a01-a9e2-fbe0683981fe")
+	)
+	(no_connect
+		(at 133.35 102.87)
+		(uuid "bae4c1e0-6ec9-4752-a67c-92aa3da4beab")
 	)
 	(no_connect
 		(at 168.91 95.25)
@@ -1877,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "0adc88c2-5928-4296-9512-668d810df1ff")
-	)
-	(wire
-		(pts
-			(xy 115.57 100.33) (xy 133.35 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a45ab2-0faf-40eb-b736-9024f0c33a95")
 	)
 	(wire
 		(pts
@@ -1990,16 +1964,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 120.65) (xy 95.25 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d658ce-c354-4a78-8c6c-c0a9684894f3")
-	)
-	(wire
-		(pts
 			(xy 158.75 53.34) (xy 158.75 67.31)
 		)
 		(stroke
@@ -2047,16 +2011,6 @@
 			(type default)
 		)
 		(uuid "2d68989f-0341-4c8e-9260-a8911f7be342")
-	)
-	(wire
-		(pts
-			(xy 99.06 102.87) (xy 120.65 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8bda2d-e9d1-4d05-b463-efac26c42bc1")
 	)
 	(wire
 		(pts
@@ -2117,16 +2071,6 @@
 			(type default)
 		)
 		(uuid "4474d0d0-00f1-466a-8248-eca3eb1d5d40")
-	)
-	(wire
-		(pts
-			(xy 67.31 100.33) (xy 95.25 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45eee83c-fd69-411a-90c7-eb91d36b8d6f")
 	)
 	(wire
 		(pts
@@ -2210,16 +2154,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 127) (xy 99.06 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d30283-a6eb-4721-ba42-e5c808de018c")
-	)
-	(wire
-		(pts
 			(xy 210.82 92.71) (xy 210.82 107.95)
 		)
 		(stroke
@@ -2257,26 +2191,6 @@
 			(type default)
 		)
 		(uuid "644f32e2-9c79-475a-a13f-1e31bd9d6769")
-	)
-	(wire
-		(pts
-			(xy 67.31 102.87) (xy 99.06 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a22fdf-8b23-44f6-a100-784ab68f9391")
-	)
-	(wire
-		(pts
-			(xy 95.25 100.33) (xy 110.49 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b0fc0d-76a7-4bda-9da9-13ab4eb86869")
 	)
 	(wire
 		(pts
@@ -2370,16 +2284,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 102.87) (xy 133.35 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f39f01-a5d3-4a8e-af91-b5fcba320acc")
-	)
-	(wire
-		(pts
 			(xy 168.91 87.63) (xy 179.07 87.63)
 		)
 		(stroke
@@ -2450,26 +2354,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 102.87) (xy 99.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83b7abd-b461-4578-87ff-ad16cdcec45c")
-	)
-	(wire
-		(pts
-			(xy 99.06 114.3) (xy 99.06 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aab6c33f-f4d2-4400-82d2-23bf4b0d9c9c")
-	)
-	(wire
-		(pts
 			(xy 76.2 87.63) (xy 120.65 87.63)
 		)
 		(stroke
@@ -2537,16 +2421,6 @@
 			(type default)
 		)
 		(uuid "bd90c413-fa47-4e79-9318-07e3ea6cb893")
-	)
-	(wire
-		(pts
-			(xy 95.25 100.33) (xy 95.25 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be21ac60-db60-4356-931e-5aa5c8334520")
 	)
 	(wire
 		(pts
@@ -2697,16 +2571,6 @@
 			(type default)
 		)
 		(uuid "dc90bd5d-6f5e-4f86-b110-1e4e736d4154")
-	)
-	(wire
-		(pts
-			(xy 91.44 127) (xy 95.25 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9a8ec4-8381-4d2a-bee0-dc706790ceb5")
 	)
 	(wire
 		(pts
@@ -3038,17 +2902,6 @@
 		)
 		(uuid "4ea2ffab-c55b-40ca-94cc-8319f125f34f")
 	)
-	(hierarchical_label "SG2"
-		(shape input)
-		(at 67.31 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d4b57ac-7500-4883-9fa5-138b4ceff64a")
-	)
 	(hierarchical_label "SP5"
 		(shape input)
 		(at 228.6 90.17 0)
@@ -3059,17 +2912,6 @@
 			(justify left)
 		)
 		(uuid "a25a3dcb-da0a-4ad4-8e8b-f6c1de60900e")
-	)
-	(hierarchical_label "SG3"
-		(shape input)
-		(at 67.31 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d25979ea-b60d-4beb-9985-21045cf02b6f")
 	)
 	(hierarchical_label "SP6"
 		(shape input)
@@ -3743,88 +3585,6 @@
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/26b7942a-953d-44a6-b4a5-9c7c902ecdf7"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 99.06 111.76 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ce9d1ef-9d2d-41b5-8926-a0a13bfb3af3")
-		(property "Reference" "C21"
-			(at 101.6 110.4835 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 101.6 113.0235 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 99.06 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 99.06 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aab3f0b8-8b78-4c7f-a856-6a89307fb26d")
-		)
-		(pin "2"
-			(uuid "87575839-1d86-4264-8eca-f168ab5ed536")
-		)
-		(instances
-			(project "MowerBoard"
-				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/26b7942a-953d-44a6-b4a5-9c7c902ecdf7"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4636,86 +4396,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 113.03 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73034628-4cfa-47ac-947b-4b402dd247b9")
-		(property "Reference" "R12"
-			(at 113.03 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 113.03 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 113.03 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 113.03 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c84536c9-1eea-4143-977b-e52abab55f40")
-		)
-		(pin "1"
-			(uuid "21757612-52a4-4d27-aaaa-a4b0a754ded7")
-		)
-		(instances
-			(project "MowerBoard"
-				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/26b7942a-953d-44a6-b4a5-9c7c902ecdf7"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 200.66 160.02 0)
 		(unit 1)
@@ -5346,86 +5026,6 @@
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/26b7942a-953d-44a6-b4a5-9c7c902ecdf7"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 123.19 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfce026f-ddf3-49dc-a94d-f80ab845a687")
-		(property "Reference" "R13"
-			(at 123.19 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 123.19 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 123.19 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 123.19 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4fdd0f63-4ebe-46f0-b001-98da3bb5067d")
-		)
-		(pin "1"
-			(uuid "61398c41-81a1-43f3-9bba-7bb6d98d8f65")
-		)
-		(instances
-			(project "MowerBoard"
-				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/26b7942a-953d-44a6-b4a5-9c7c902ecdf7"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6138,88 +5738,6 @@
 			(project "MowerBoard"
 				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/26b7942a-953d-44a6-b4a5-9c7c902ecdf7"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 95.25 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edb045f5-a27b-44da-8497-d5474aaf8285")
-		(property "Reference" "C20"
-			(at 97.79 116.8335 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 97.79 119.3735 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 95.25 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 95.25 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25bf27f4-c76c-414c-a26f-6aeaea90cc1a")
-		)
-		(pin "2"
-			(uuid "f5168963-5f2d-4397-93e4-d79a547ccc66")
-		)
-		(instances
-			(project "MowerBoard"
-				(path "/bd3c2afb-bb7d-4136-bab9-15428914e155/26b7942a-953d-44a6-b4a5-9c7c902ecdf7"
-					(reference "C20")
 					(unit 1)
 				)
 			)

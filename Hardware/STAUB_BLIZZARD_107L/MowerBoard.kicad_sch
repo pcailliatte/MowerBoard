@@ -3178,14 +3178,6 @@
 		(uuid "aba287ab-8954-4eaf-aa30-545e87e2b024")
 	)
 	(no_connect
-		(at 132.08 107.95)
-		(uuid "ac9ee8a5-af90-44b6-a8ef-aef3feeec1a2")
-	)
-	(no_connect
-		(at 132.08 105.41)
-		(uuid "c4ccbf22-8151-423b-b144-dcded7b3fb4d")
-	)
-	(no_connect
 		(at 138.43 38.1)
 		(uuid "d65873b0-4ac9-4e24-9ed9-35689f43e291")
 	)
@@ -4403,7 +4395,7 @@
 		)
 		(uuid "135328c6-c399-45e7-a733-d7685892f112")
 	)
-	(label "G_SP5"
+	(label "BT_AR"
 		(at 167.64 132.08 180)
 		(effects
 			(font
@@ -4413,7 +4405,7 @@
 		)
 		(uuid "169e49bc-ff0b-44fd-92fb-26e0ab5454f5")
 	)
-	(label "G_SP3"
+	(label "INPUT_FORWARD"
 		(at 123.19 137.16 180)
 		(effects
 			(font
@@ -4432,16 +4424,6 @@
 			(justify left bottom)
 		)
 		(uuid "27302a53-2679-4330-9bff-b2e8c2cc29d1")
-	)
-	(label "G_SG0"
-		(at 123.19 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27a9bea5-e1b4-47da-9b26-8d5d01669c66")
 	)
 	(label "STARTER"
 		(at 52.07 66.04 0)
@@ -4463,7 +4445,7 @@
 		)
 		(uuid "2daa4cda-a6ea-4b75-ba41-d4628ce89aaf")
 	)
-	(label "G_SP2"
+	(label "OUT_AUX"
 		(at 82.55 55.88 180)
 		(effects
 			(font
@@ -4473,7 +4455,7 @@
 		)
 		(uuid "31c16f68-ffbf-4fc6-9524-23ccff00a237")
 	)
-	(label "G_SP5"
+	(label "BT_AR"
 		(at 115.57 91.44 0)
 		(effects
 			(font
@@ -4483,7 +4465,7 @@
 		)
 		(uuid "381b0229-b772-450b-8531-ec41d8fedadf")
 	)
-	(label "G_SP7"
+	(label "INPUT_SEAT"
 		(at 123.19 129.54 180)
 		(effects
 			(font
@@ -4493,27 +4475,7 @@
 		)
 		(uuid "41eada80-e229-4ef2-bfa5-5b28691012c2")
 	)
-	(label "G_SP1"
-		(at 115.57 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f268f27-e731-4787-a571-125cc38a5bfe")
-	)
-	(label "G_SG1"
-		(at 123.19 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5cf969d9-00a4-4ba6-a925-594d79f5d474")
-	)
-	(label "G_SP6"
+	(label "INPUT_PTO_GS"
 		(at 115.57 93.98 0)
 		(effects
 			(font
@@ -4521,9 +4483,49 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "707b0803-67fc-40f7-b19e-6d4e0739d276")
+		(uuid "44a305f7-4c1f-455d-ac8e-373fef226cf5")
 	)
-	(label "G_SP2"
+	(label "INPUT_FORWARD"
+		(at 115.57 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "493fb745-8da8-40b3-bb64-82959bc8fb72")
+	)
+	(label "INPUT_BRAKE"
+		(at 123.19 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54bdc5ad-5cb1-4386-b3ab-a3f98f2daf9f")
+	)
+	(label "INPUT_BACKWARD"
+		(at 123.19 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6481fce9-6795-4fa8-a07e-fa6a49038564")
+	)
+	(label "INPUT_BACKWARD"
+		(at 115.57 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81415f0a-6373-4b6e-b53b-be0bdbac2285")
+	)
+	(label "OUT_AUX"
 		(at 167.64 137.16 180)
 		(effects
 			(font
@@ -4533,7 +4535,7 @@
 		)
 		(uuid "827623a3-8e0a-4288-9bbf-73ab2917d063")
 	)
-	(label "G_SG1"
+	(label "INPUT_BRAKE"
 		(at 115.57 102.87 0)
 		(effects
 			(font
@@ -4543,7 +4545,7 @@
 		)
 		(uuid "95dcba43-602a-45f9-92bb-c96f0aed057b")
 	)
-	(label "G_SP2"
+	(label "OUT_AUX"
 		(at 115.57 83.82 0)
 		(effects
 			(font
@@ -4553,25 +4555,15 @@
 		)
 		(uuid "98e167ba-1454-4c0c-bcab-abaa5cd356a9")
 	)
-	(label "G_SP1"
-		(at 123.19 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abee218a-cd4e-419f-9d9a-98b6732d12ae")
-	)
-	(label "G_SP7"
-		(at 115.57 96.52 0)
+	(label "INPUT_SEAT"
+		(at 115.57 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ac81572c-5639-468e-97d1-c334894cc106")
+		(uuid "a5a46116-238e-4e29-8d58-77b43c0154af")
 	)
 	(label "VCC_FUSE10"
 		(at 82.55 41.91 0)
@@ -4583,17 +4575,7 @@
 		)
 		(uuid "acb10860-bffc-463e-922e-9f3ecea22c03")
 	)
-	(label "G_SG0"
-		(at 115.57 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b050b37e-71af-44be-9ca4-9cc25ee6f764")
-	)
-	(label "G_SP6"
+	(label "INPUT_PTO_GS"
 		(at 167.64 129.54 180)
 		(effects
 			(font
@@ -4612,6 +4594,26 @@
 			(justify right bottom)
 		)
 		(uuid "b41a3c87-241a-446a-bd45-f216de1466d1")
+	)
+	(label "INPUT_START"
+		(at 123.19 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8a27c6c-7f65-4514-b683-185a4e3636d5")
+	)
+	(label "INPUT_START"
+		(at 115.57 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc5ea961-04a9-4321-b38d-6f0984a0bf2b")
 	)
 	(label "VCC_FUSE20"
 		(at 82.55 118.11 0)
@@ -4682,16 +4684,6 @@
 			(justify right bottom)
 		)
 		(uuid "f94c78bc-6273-49a6-a44b-dc6d3e396289")
-	)
-	(label "G_SP3"
-		(at 115.57 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff9897a9-b6e6-42cb-ba09-621d3543dc4e")
 	)
 	(symbol
 		(lib_id "Diode:SM6T6V8A")
@@ -7539,26 +7531,6 @@
 		(pin "SG0" input
 			(at 132.08 100.33 180)
 			(uuid "ca4e1337-3892-4899-9d39-3d684d2009d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SG2" input
-			(at 132.08 105.41 180)
-			(uuid "40fe2456-821d-4fd2-b52a-38c29358be1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SG3" input
-			(at 132.08 107.95 180)
-			(uuid "695ce69f-50e1-402e-87db-d675d8b15297")
 			(effects
 				(font
 					(size 1.27 1.27)
