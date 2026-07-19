@@ -40,7 +40,7 @@ Numérotation :
 | 2 | Non connecté  | NC | | | |
 | 3 | Ordre de coupe / PTO | INPUT | Orange | Commutation de masse | |
 | 4 | Bouton A/R sur tableau de bord | INPUT | Blanc | Commutation de masse | Historiquement le dévérouillage de la coupe en arrière |
-| 5 | Masse de la sélénoïde du démarreur| OUTPUT | Vert | GND = Démarrage | Via relais K1 bobine 1 |
+| 5 | Masse de la solénoïde du démarreur| OUTPUT | Vert | GND = Démarrage | Via relais K1 bobine 1 |
 | 6 | AUX / Feux | OUTPUT | Jaune | +12v ou GND fonction du relais | Pas vraiment utilisé, via bobine K2 bobine 2 |
 | 7 | Tension de contact (Neiman) | INPUT/POWER | Rouge | +12v | Historiquement alimentation de la carte |
 | 8 | Demande de démarrage | INPUT | Jaune | +12v | +12v viens du contact Neiman|
