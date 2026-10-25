@@ -293,7 +293,7 @@ MowerBoard/
 │   └── COMPATIBILITY.md     # Compatibilité avec autres modèles
 ├── README.md                # Ce fichier
 ├── CONTRIBUTING.md          # Guide de contribution
-└── LICENCE.MD               # Texte complet de la licence
+└── LICENCE.md               # Licence du hardware (CERN-OHL-S v2)
 
 ```
 
@@ -341,21 +341,37 @@ Avant toute intégration :
 
 ## 📜 Licence
 
-Ce projet est publié sous licence **CERN Open Hardware Licence - Strong Reciprocal v2 (CERN-OHL-S v2)**.
+Ce dépôt réunit deux domaines publiés sous deux licences distinctes :
 
-### Ce que cela signifie
+| Dossier | Licence | Texte complet |
+|---------|---------|---------------|
+| `Hardware/` | **CERN Open Hardware Licence - Strongly Reciprocal v2 (CERN-OHL-S v2)** | [`LICENCE.md`](LICENCE.md) |
+| `Firmware/` (hors `config.mcc/`) | **GNU GPL v3 ou ultérieure**, avec une permission additionnelle pour le code généré par MCC (`GPL-3.0-or-later WITH GPL-3.0-linking-source-exception`) | [`Firmware/LICENSE`](Firmware/LICENSE) |
+| `Firmware/config.mcc/` | Licence Microchip (code généré par MPLAB Code Configurator) | En-tête de chaque fichier |
 
-*   **Partage et Fork :** Vous êtes libre de copier, modifier et distribuer ce projet (schémas, PCB, code).
+### Hardware : CERN-OHL-S v2
+
+*   **Partage et Fork :** Vous êtes libre de copier, modifier et distribuer les sources matérielles (schémas, PCB, BOM).
 
 *   **Attribution :** Vous devez conserver la mention du copyright d'origine et l'attribution au projet MowerBoard dans tous les travaux dérivés.
 
 *   **Usage Commercial :** La fabrication et la vente commerciale de cette carte **sont autorisées**, à condition de respecter les clauses ci-dessous.
 
-*   **Copyleft Fort (Pas de prise de contrôle) :** Si vous modifiez le matériel, les schémas ou le code et que vous les distribuez, **vous avez l'obligation légale de publier l'intégralité de vos modifications** sous la même licence CERN-OHL-S v2.
+*   **Copyleft Fort (Pas de prise de contrôle) :** Si vous modifiez le matériel ou les schémas et que vous les distribuez, ou que vous distribuez des cartes fabriquées à partir de ces sources, **vous avez l'obligation de publier l'intégralité des sources modifiées** sous la même licence CERN-OHL-S v2.
+
+### Firmware : GPL-3.0-or-later avec exception MCC
+
+*   **Partage et Fork :** Vous êtes libre d'utiliser, d'étudier, de modifier et de redistribuer le firmware.
+
+*   **Copyleft :** Si vous distribuez le firmware, modifié ou non, y compris sous forme binaire ou flashé sur une carte, **vous devez fournir le code source correspondant** sous GPL-3.0-or-later.
+
+*   **Anti-verrouillage :** Lorsque le firmware est distribué dans un produit grand public (« User Product » au sens de la section 6 de la GPL v3), le distributeur doit fournir, en plus des sources, les informations nécessaires pour installer et exécuter une version modifiée du firmware sur la carte (« Installation Information »). Un bootloader verrouillé ou une signature qui empêcherait de flasher un firmware modifié n'est donc pas permis. Cette obligation ne s'applique pas si personne, pas même le distributeur, ne peut mettre à jour le firmware de l'appareil.
+
+*   **Exception MCC :** Une permission additionnelle (section 7 de la GPL v3) autorise la liaison avec le code généré par Microchip MCC, qui reste sous licence Microchip. Le code source correspondant d'un binaire doit alors inclure aussi le code MCC utilisé.
+
+### Marque
 
 *   **Aucun droit de marque :** Vous ne pouvez pas utiliser le nom "MowerBoard" pour des produits dérivés sans permission explicite.
-
-**Le texte complet de la licence est disponible dans le fichier `LICENCE.MD`.**
 
 ---
 
@@ -376,7 +392,7 @@ Ce dépôt centralise l'ingénierie partagée du projet. Les schémas, nomenclat
 *   Testez votre code avant de le soumettre
 *   Documentez vos changements
 *   Utilisez des messages de commit clairs en français ou anglais
-*   Respectez la licence CERN-OHL-S v2
+*   Respectez la licence du domaine concerné : CERN-OHL-S v2 pour `Hardware/`, GPL-3.0-or-later pour `Firmware/`
 
 ### Signalement de bugs
 

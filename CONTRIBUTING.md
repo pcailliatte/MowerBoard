@@ -47,7 +47,7 @@ Tout code ou schéma contribué doit **maintenir ou améliorer** les normes de s
 *   Consultez la documentation dans `/Doc`
 *   Parcourez les Issues ouvertes pour voir si votre idée est déjà discutée
 *   Regardez les Pull Requests en cours
-*   Lisez le README.md et la LICENCE.MD
+*   Lisez le README.md et la LICENCE.md
 
 ---
 
@@ -334,9 +334,26 @@ Vous avez une idée pour améliorer le projet ? Ouvrez une Discussion ou une Iss
 
 ## 📜 Licence
 
-En contribuant à ce projet, vous acceptez que vos contributions soient licenciées sous la **CERN Open Hardware Licence - Strong Reciprocal v2 (CERN-OHL-S v2)**.
+Le dépôt utilise une licence par domaine. En contribuant, vous acceptez que votre contribution soit publiée sous la licence du dossier concerné :
 
-Cela signifie que votre code/schéma peut être utilisé, modifié et distribué sous les mêmes conditions ouvertes.
+| Dossier | Licence de vos contributions |
+|---------|------------------------------|
+| `Hardware/` | **CERN Open Hardware Licence - Strongly Reciprocal v2 (CERN-OHL-S v2)**, voir [`LICENCE.md`](LICENCE.md) |
+| `Firmware/` (hors `config.mcc/`) | **`GPL-3.0-or-later WITH GPL-3.0-linking-source-exception`**, exception MCC comprise, voir [`Firmware/LICENSE`](Firmware/LICENSE) |
+
+### Firmware : l'exception MCC est obligatoire
+
+Chaque contribution au firmware doit être publiée avec l'exception MCC : sans elle, le firmware ne pourrait plus être lié légalement au code généré par MCC, qui est sous licence Microchip et non sous GPL.
+
+Tout nouveau fichier source doit reprendre l'en-tête de licence des fichiers existants de `Firmware/src/`, ligne `SPDX-License-Identifier` comprise.
+
+### `Firmware/config.mcc/` : ne pas modifier à la main
+
+Ce dossier est généré par Microchip MPLAB Code Configurator (MCC) et reste sous licence Microchip. Ne le modifiez pas à la main : toute modification passe par MCC, puis par une régénération. MCC génère aussi son propre `main.c` ; le point d'entrée du firmware est `Firmware/src/main.c`.
+
+### Signature des commits (recommandé)
+
+Nous vous recommandons de signer vos commits avec `git commit -s`. Cette option ajoute une ligne `Signed-off-by:` par laquelle vous certifiez, selon le [Developer Certificate of Origin (DCO)](https://developercertificate.org/), avoir le droit de soumettre votre contribution sous la licence du dossier concerné. Ce n'est pas une obligation.
 
 ---
 
