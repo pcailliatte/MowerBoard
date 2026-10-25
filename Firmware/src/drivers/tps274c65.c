@@ -57,7 +57,7 @@ static uint16_t tps_SendMessage(uint16_t cmd_dir, uint8_t spi_addr,
   return ((uint16_t)buf_data[0] << 8) | buf_data[1];
 }
 
-void tps274c65_init(void) {
+void TPS274C65_Init(void) {
   // Initialisation du TPS274C65
   sw_in_shadow = 0x00; // Commutateurs à 0
 
@@ -71,7 +71,7 @@ void tps274c65_init(void) {
  * @ingroup  tps274c65
  * @brief Refresh must be call in the main loop
  */
-void tps274c65_SendOutputs(void) {
+void TPS274C65_SendOutputs(void) {
   sw_in_shadow = output_process_ram[OUTPUT_PROCESS_RELAYS] & 0x0F;
   uint8_t led_1_4_shadow =
       output_process_ram[OUTPUT_PROCESS_LEDS] & 0x0F; // LEDs 1 à 4

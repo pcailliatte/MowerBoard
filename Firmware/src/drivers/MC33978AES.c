@@ -69,8 +69,8 @@ static uint16_t MC33978AES_DecodeSwitchStatus(const uint8_t response[4]) {
   uint16_t switch_state = 0x0000;
 
   switch_state |= (uint16_t)(response[3] & 0b00000001U) << 0; // SG0 -> bit 0 - BIT 0  : INPUT SEAT
-  switch_state |= (uint16_t)(response[3] & 0b00000010U) << 0; // SG1 -> bit 1 - BIT 1  : INPUT BREAK
-  switch_state |= (uint16_t)(response[2] & 0b01000000U) >> 4; // SP0 -> bit 2 - BIT 14 : 12V NEMAN SWITCH
+  switch_state |= (uint16_t)(response[3] & 0b00000010U) << 0; // SG1 -> bit 1 - BIT 1  : INPUT BRAKE
+  switch_state |= (uint16_t)(response[2] & 0b01000000U) >> 4; // SP0 -> bit 2 - BIT 14 : 12V NEIMAN SWITCH
   switch_state |= (uint16_t)(response[2] & 0b10000000U) >> 4; // SP1 -> bit 3 - BIT 15 : INPUT BACKWARD
   switch_state |= (uint16_t)(response[1] & 0b00000001U) << 4; // SP2 -> bit 4 - BIT 16 : OUT_AUX
   switch_state |= (uint16_t)(response[1] & 0b00000010U) << 4; // SP3 -> bit 5 - BIT 17 : INPUT FORWARD

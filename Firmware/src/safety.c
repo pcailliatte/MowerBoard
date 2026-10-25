@@ -16,22 +16,22 @@
 #include "registers.h"
 
 volatile bool EngineCanRun = false;
-volatile bool BaldesCanRun = false;
+volatile bool BladesCanRun = false;
 volatile bool DO_EN_IS_ON = false;
 
 bool Safety_EngineCanRun () {
   return EngineCanRun;
 }
 
-bool Satefy_BaldeCanRun() {
-  return BaldesCanRun;
+bool Safety_BladeCanRun() {
+  return BladesCanRun;
 }
 
 bool Safety_SeatIsOccupied() {
   return (global_shadow_ram[REG_IN_B1] & 0x01) > 0;
 }
 
-bool Safety_BreakActivated() {
+bool Safety_BrakeActivated() {
   return (global_shadow_ram[REG_IN_B1] & 0x02) > 0;
 }
 
@@ -60,9 +60,9 @@ void SafetySrLoop(void) {
   // - the MC33978AES state was successfully read during the previous cycle; and
   // - the seat is occupied or the brake is engaged.
   EngineCanRun = false;
-  bool breakActivated = Safety_BreakActivated();
+  bool brakeActivated = Safety_BrakeActivated();
   bool seatIsOccupied = Safety_SeatIsOccupied();
-  if (_SWITCH_STATUS_DONE && (breakActivated || seatIsOccupied)) {
+  if (_SWITCH_STATUS_DONE && (brakeActivated || seatIsOccupied)) {
     EngineCanRun = true;
   }
 

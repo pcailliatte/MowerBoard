@@ -52,7 +52,7 @@ int main(void) {
   // Initialisation du module MODBUS UART0
   Modbus_Init();
   MC33978AES_Init();
-  tps274c65_init();
+  TPS274C65_Init();
   LoRa_Init();
 
   IO_DO_EN_SetLow();
@@ -111,7 +111,7 @@ int main(void) {
       }
 
       _registers_buildWorkRegister();
-      tps274c65_SendOutputs();
+      TPS274C65_SendOutputs();
     } else {
       sleep_mode();
       // sleep_cpu();

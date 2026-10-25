@@ -17,9 +17,9 @@
 
 extern volatile bool DO_EN_IS_ON;
 
-bool Satefy_BaldeCanRun();
+bool Safety_BladeCanRun();
 bool Safety_EngineCanRun();
-bool Safety_BreakActivated();
+bool Safety_BrakeActivated();
 bool Safety_SeatIsOccupied();
 bool Safety_StartActivated();
 bool Safety_ContactActivated();

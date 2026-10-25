@@ -18,8 +18,8 @@
 extern "C" {
 #endif
 
-void tps274c65_init(void);
-void tps274c65_SendOutputs(void);
+void TPS274C65_Init(void);
+void TPS274C65_SendOutputs(void);
 
 #ifdef __cplusplus // Provide C++ Compatibility
 }
