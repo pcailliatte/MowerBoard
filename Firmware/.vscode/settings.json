@@ -1,0 +1,15 @@
+{
+    "mplab.clangd.arguments": [
+        "--header-insertion=never"
+    ],
+    "mplab.clangd.compileCommandsDir": "${workspaceFolder}\\_build\\OpenMower\\default",
+    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc8\\v4.00\\bin\\xc8-clangd.exe",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cmake.sourceDirectory": "${workspaceFolder}/cmake/OpenMower/default",
+    "memory-inspector.debugTypes": [
+        "arm-debugger",
+        "embedded-debug",
+        "gdb",
+        "mplab-core-da"
+    ]
+}

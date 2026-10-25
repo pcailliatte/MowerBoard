@@ -1,0 +1,13 @@
+# Build (régénérés par CMake / MPLAB)
+_build/
+out/
+cmake/*/*/.generated/
+
+# Fichiers locaux à la machine
+.vscode/*.mplab-local.json
+.venv/
+__pycache__/
+*.pyc
+
+# Scripts de test internes (ports COM locaux)
+Python/
